@@ -16,6 +16,7 @@
                     class="uk-width-1-1 uk-form-large uk-input  uk-width-auto"
                     type="password"
                     v-model="password"
+                    autocomplete="password"
                     :placeholder="$t('login.password')"
                     :aria-label="$t('login.password')"
                 />
